@@ -4,6 +4,8 @@ def fizzbuzz
 			puts "bit"
 		elsif (n % 5 == 0)
 			puts "maker"
+		elsif (n % 3 ==0 && n % 5 ==0)
+			puts "bitmaker"	
 	end
 end
 
